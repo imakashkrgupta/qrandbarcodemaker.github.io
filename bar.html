@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar code generator - By Akash</title>
+    <link rel="stylesheet" href="qr_bar.css">
+    <script src="qr_bar.js"></script>
+    <script src="JsBarcode.all.min.js"></script>
+</head>
+<body>
+    <div class="bar_wrapper">
+        <h1>Let's make Bar Code!</h1>
+        <br><br> <br>
+        <div class="bar_wrappi">
+            <div class="bar_sub_wrapper_1">
+                <input class="bar_input" id="bar_input_id" type="text" placeholder="Enter text or url">
+            <br><br>
+            <button id="bar_submit" onclick="bar_btn_clicked()">Generate Bar Code</button>
+            </div>
+            <div class="bar_sub_wrapper_2">
+                <svg id="bar_img"></svg>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
